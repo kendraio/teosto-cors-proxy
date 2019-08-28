@@ -1,0 +1,13 @@
+{
+  "name": "teosto-cors-proxy",
+  "version": 2,
+  "builds": [
+    { "src": "proxy.js", "use": "@now/node" }
+  ],
+  "routes": [
+    { "src": "/.*", "dest": "/proxy.js" }
+  ],
+  "env": {
+    "PROXY_URL": "@proxy_url"
+  }
+}

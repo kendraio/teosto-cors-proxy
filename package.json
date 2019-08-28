@@ -1,0 +1,14 @@
+{
+  "name": "teosto-cors-proxy",
+  "version": "0.1.0",
+  "description": "CORS proxy to allow Teosto API to be used in Kendraio App development",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "request": "^2.88.0"
+  }
+}
